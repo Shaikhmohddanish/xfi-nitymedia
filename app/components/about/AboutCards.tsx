@@ -18,8 +18,8 @@ export default function AboutCards() {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Who Are We */}
           <div className="bg-white rounded-lg p-8 shadow-lg">
-            <div className="w-12 h-1 bg-blue-600 mb-6"></div>
-            <h3 className="text-2xl font-bold text-blue-400 mb-6">Who Are We</h3>
+            <div className="w-12 h-1 bg-gray-600 mb-6"></div>
+            <h3 className="text-2xl font-bold text-gray-400 mb-6">Who Are We</h3>
             <p className="text-gray-600 leading-relaxed">
               Founded with a vision to revolutionize the way businesses approach digital transformation, xfi-nitymediahas
               quickly emerged as a trusted partner for organizations seeking to maximize their online potential. With a
@@ -30,8 +30,8 @@ export default function AboutCards() {
 
           {/* Our Mission */}
           <div className="bg-white rounded-lg p-8 shadow-lg">
-            <div className="w-12 h-1 bg-blue-600 mb-6"></div>
-            <h3 className="text-2xl font-bold text-blue-400 mb-6">Our Mission</h3>
+            <div className="w-12 h-1 bg-gray-600 mb-6"></div>
+            <h3 className="text-2xl font-bold text-gray-400 mb-6">Our Mission</h3>
             <p className="text-gray-600 leading-relaxed">
               At xfi-nitymedia, our mission is simple: to empower businesses to succeed in the digital age. Whether it's
               creating stunning websites, developing cutting- edge software solutions, or devising strategic marketing
@@ -41,12 +41,12 @@ export default function AboutCards() {
 
           {/* What We Do */}
           <div className="bg-white rounded-lg p-8 shadow-lg">
-            <div className="w-12 h-1 bg-blue-600 mb-6"></div>
-            <h3 className="text-2xl font-bold text-blue-400 mb-6">What We Do</h3>
+            <div className="w-12 h-1 bg-gray-600 mb-6"></div>
+            <h3 className="text-2xl font-bold text-gray-400 mb-6">What We Do</h3>
             <ul className="space-y-3">
               {services.map((service, index) => (
                 <li key={index} className="flex items-center text-gray-600">
-                  <span className="w-2 h-2 bg-blue-600 rounded-full mr-3 flex-shrink-0"></span>
+                  <span className="w-2 h-2 bg-gray-600 rounded-full mr-3 flex-shrink-0"></span>
                   {service}
                 </li>
               ))}

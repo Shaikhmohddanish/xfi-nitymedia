@@ -10,8 +10,8 @@ export default function ContactDetails() {
       </p>
       <div className="space-y-6">
         <div className="flex items-start">
-          <div className="p-3 bg-blue-100 rounded-md mr-4">
-            <MapPin className="w-6 h-6 text-blue-600" />
+          <div className="p-3 bg-gray-100 rounded-md mr-4">
+            <MapPin className="w-6 h-6 text-gray-600" />
           </div>
           <div>
             <h3 className="text-lg font-semibold text-gray-800">Our Address</h3>
@@ -19,8 +19,8 @@ export default function ContactDetails() {
           </div>
         </div>
         <div className="flex items-start">
-          <div className="p-3 bg-blue-100 rounded-md mr-4">
-            <Phone className="w-6 h-6 text-blue-600" />
+          <div className="p-3 bg-gray-100 rounded-md mr-4">
+            <Phone className="w-6 h-6 text-gray-600" />
           </div>
           <div>
             <h3 className="text-lg font-semibold text-gray-800">Phone Number</h3>
@@ -28,8 +28,8 @@ export default function ContactDetails() {
           </div>
         </div>
         <div className="flex items-start">
-          <div className="p-3 bg-blue-100 rounded-md mr-4">
-            <Mail className="w-6 h-6 text-blue-600" />
+          <div className="p-3 bg-gray-100 rounded-md mr-4">
+            <Mail className="w-6 h-6 text-gray-600" />
           </div>
           <div>
             <h3 className="text-lg font-semibold text-gray-800">Email Address</h3>

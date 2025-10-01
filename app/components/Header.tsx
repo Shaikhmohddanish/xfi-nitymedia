@@ -25,7 +25,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="bg-blue-500 shadow-lg sticky top-0 z-50">
+      <header className="bg-gray-500 shadow-lg sticky top-0 z-50">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
@@ -50,10 +50,10 @@ export default function Header() {
                   <ChevronDown className="ml-1 w-4 h-4" />
                 </button>
                 {isServicesOpen && (
-                  <div className="absolute top-full left-0 mt-2 w-64 bg-blue-600 rounded-md shadow-lg py-2 z-50">
+                  <div className="absolute top-full left-0 mt-2 w-64 bg-gray-600 rounded-md shadow-lg py-2 z-50">
                     <Link
                       href="/services"
-                      className="block px-4 py-3 text-white hover:bg-blue-700 border-b border-blue-500"
+                      className="block px-4 py-3 text-white hover:bg-gray-700 border-b border-blue-500"
                       onClick={handleServiceLinkClick}
                     >
                       All Services
@@ -62,7 +62,7 @@ export default function Header() {
                       <Link
                         key={index}
                         href={`/services/${service.toLowerCase().replace(/\s+/g, "-")}`}
-                        className="block px-4 py-3 text-white hover:bg-blue-700 border-b border-blue-500 last:border-b-0"
+                        className="block px-4 py-3 text-white hover:bg-gray-700 border-b border-blue-500 last:border-b-0"
                         onClick={handleServiceLinkClick}
                       >
                         {service}
@@ -82,7 +82,7 @@ export default function Header() {
               </Link>
               <Link
                 href="/quote"
-                className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 font-medium"
+                className="bg-gray-600 text-white px-6 py-2 rounded-md hover:bg-gray-700 font-medium"
                 onClick={handleLinkClick}
               >
                 REQUEST QUOTE
@@ -97,7 +97,7 @@ export default function Header() {
 
           {/* Mobile Navigation */}
           {isMenuOpen && (
-            <div className="md:hidden bg-blue-600 py-4">
+            <div className="md:hidden bg-gray-600 py-4">
               <nav className="flex flex-col space-y-4">
                 <Link href="/" className="text-white hover:text-gray-200 font-medium px-4" onClick={handleLinkClick}>
                   Home
@@ -158,7 +158,7 @@ export default function Header() {
                 </Link>
                 <Link
                   href="/quote"
-                  className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 font-medium mx-4 text-center"
+                  className="bg-gray-600 text-white px-6 py-2 rounded-md hover:bg-gray-700 font-medium mx-4 text-center"
                   onClick={handleLinkClick}
                 >
                   REQUEST QUOTE

@@ -41,7 +41,7 @@ export default function ContactForm() {
           </Label>
           <Textarea id="message" placeholder="Tell us about your project..." required className="mt-2" rows={5} />
         </div>
-        <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700">
+        <Button type="submit" className="w-full bg-gray-600 hover:bg-gray-700">
           Send Message
         </Button>
       </form>

@@ -17,8 +17,8 @@ export default function PayPage() {
         <div className="container mx-auto px-4 max-w-2xl">
           <Card className="shadow-2xl">
             <CardHeader className="text-center">
-              <div className="mx-auto bg-blue-100 p-3 rounded-full w-fit mb-4">
-                <Lock className="w-8 h-8 text-blue-600" />
+              <div className="mx-auto bg-gray-100 p-3 rounded-full w-fit mb-4">
+                <Lock className="w-8 h-8 text-gray-600" />
               </div>
               <CardTitle className="text-3xl">Secure Payment</CardTitle>
               <CardDescription className="text-lg">Complete your payment in a few simple steps.</CardDescription>

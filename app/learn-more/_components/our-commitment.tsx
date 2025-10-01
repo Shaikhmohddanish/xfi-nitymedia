@@ -11,7 +11,7 @@ export default function OurCommitment() {
             />
           </div>
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-600 mb-6">Your Success is Our Mission</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-600 mb-6">Your Success is Our Mission</h2>
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
                 At xfi-nitymedia, our relationship with clients extends far beyond project delivery. We see ourselves as a

@@ -12,7 +12,7 @@ export default function AboutStats() {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="mb-12">
-          <h2 className="text-3xl font-bold text-blue-400 mb-4">Some Numbers</h2>
+          <h2 className="text-3xl font-bold text-gray-400 mb-4">Some Numbers</h2>
           <p className="text-gray-600 max-w-md">
             Integrity, professionalism, and excellence are at the core of everything we do.
           </p>
@@ -21,8 +21,8 @@ export default function AboutStats() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="text-4xl md:text-6xl font-bold text-blue-600 mb-2">{stat.number}</div>
-              <div className="text-sm md:text-base text-blue-600 font-medium">{stat.label}</div>
+              <div className="text-4xl md:text-6xl font-bold text-gray-600 mb-2">{stat.number}</div>
+              <div className="text-sm md:text-base text-gray-600 font-medium">{stat.label}</div>
             </div>
           ))}
         </div>
@@ -30,7 +30,7 @@ export default function AboutStats() {
         <div className="text-center">
           <Link
             href="tel:8889291991"
-            className="bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 font-medium inline-block"
+            className="bg-gray-600 text-white px-8 py-3 rounded-md hover:bg-gray-700 font-medium inline-block"
           >
             888 929 1991
           </Link>

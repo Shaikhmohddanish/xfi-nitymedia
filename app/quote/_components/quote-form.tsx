@@ -69,7 +69,7 @@ export default function QuoteForm() {
         <p className="text-gray-500 text-center">Step {step} of 3</p>
         <div className="w-full bg-gray-200 rounded-full h-2.5 mt-4">
           <div
-            className="bg-blue-600 h-2.5 rounded-full transition-all duration-500"
+            className="bg-gray-600 h-2.5 rounded-full transition-all duration-500"
             style={{ width: `${(step / 3) * 100}%` }}
           ></div>
         </div>
@@ -175,12 +175,12 @@ export default function QuoteForm() {
           )}
           <div /> {/* Spacer */}
           {step < 3 && (
-            <Button type="button" onClick={nextStep} className="bg-blue-600 hover:bg-blue-700">
+            <Button type="button" onClick={nextStep} className="bg-gray-600 hover:bg-gray-700">
               Next
             </Button>
           )}
           {step === 3 && (
-            <Button type="submit" className="bg-blue-600 hover:bg-blue-700">
+            <Button type="submit" className="bg-gray-600 hover:bg-gray-700">
               Submit Quote Request
             </Button>
           )}

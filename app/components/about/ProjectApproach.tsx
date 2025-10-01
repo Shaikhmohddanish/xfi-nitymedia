@@ -43,13 +43,13 @@ export default function ProjectApproach() {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-blue-400 mb-16">Our Project Approach</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-400 mb-16">Our Project Approach</h2>
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           {approachSteps.slice(0, 3).map((step, index) => (
             <div key={index} className="text-center">
               <div className="text-6xl md:text-8xl font-bold text-gray-100 mb-4">{step.number}</div>
-              <h3 className="text-xl font-bold text-blue-400 mb-4">{step.title}</h3>
+              <h3 className="text-xl font-bold text-gray-400 mb-4">{step.title}</h3>
               <p className="text-gray-600 leading-relaxed">{step.description}</p>
             </div>
           ))}
@@ -59,7 +59,7 @@ export default function ProjectApproach() {
           {approachSteps.slice(3, 6).map((step, index) => (
             <div key={index} className="text-center">
               <div className="text-6xl md:text-8xl font-bold text-gray-100 mb-4">{step.number}</div>
-              <h3 className="text-xl font-bold text-blue-400 mb-4">{step.title}</h3>
+              <h3 className="text-xl font-bold text-gray-400 mb-4">{step.title}</h3>
               <p className="text-gray-600 leading-relaxed">{step.description}</p>
             </div>
           ))}
@@ -68,7 +68,7 @@ export default function ProjectApproach() {
         <div className="text-center">
           <Link
             href="tel:8889291991"
-            className="bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 font-medium inline-block"
+            className="bg-gray-600 text-white px-8 py-3 rounded-md hover:bg-gray-700 font-medium inline-block"
           >
             888 929 1991
           </Link>

@@ -54,7 +54,7 @@ export default function WhyChooseUs() {
 
           {/* Right side - Content */}
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-500 mb-8">Why Choose Us?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-500 mb-8">Why Choose Us?</h2>
             <p className="text-gray-600 mb-8 leading-relaxed">
               With a team of seasoned professionals in web design, development, business consultation, and marketing, we
               bring a wealth of expertise to every project. Our diverse skill set allows us to tackle challenges from
@@ -69,12 +69,12 @@ export default function WhyChooseUs() {
                     className="w-full flex items-center justify-between p-4 text-left hover:bg-gray-50"
                   >
                     <span
-                      className={`font-medium ${openSection === section.title ? "text-blue-600" : "text-gray-700"}`}
+                      className={`font-medium ${openSection === section.title ? "text-gray-600" : "text-gray-700"}`}
                     >
                       {section.title}
                     </span>
                     {openSection === section.title ? (
-                      <Minus className="w-5 h-5 text-blue-600" />
+                      <Minus className="w-5 h-5 text-gray-600" />
                     ) : (
                       <Plus className="w-5 h-5 text-gray-400" />
                     )}

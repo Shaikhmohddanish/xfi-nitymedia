@@ -34,7 +34,7 @@ export default function OurProcess() {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-600 mb-4">Our Path to Your Success</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-600 mb-4">Our Path to Your Success</h2>
           <p className="text-lg text-gray-600">
             We follow a structured and transparent process to ensure every project is delivered on time, on budget, and
             to the highest standard of quality.
@@ -52,7 +52,7 @@ export default function OurProcess() {
                 <img src={step.image || "/images/process-1.jpg"} alt={step.alt} className="w-full h-full object-cover" />
               </div>
               <div className="lg:pr-8">
-                <span className="text-sm font-bold text-blue-500 uppercase">Step {index + 1}</span>
+                <span className="text-sm font-bold text-gray-500 uppercase">Step {index + 1}</span>
                 <h3 className="text-2xl font-bold text-gray-800 mt-2 mb-4">{step.name}</h3>
                 <p className="text-gray-600 leading-relaxed">{step.description}</p>
               </div>

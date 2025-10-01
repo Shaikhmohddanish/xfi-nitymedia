@@ -32,14 +32,14 @@ export default function ServicesSection() {
         <div className="grid md:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div key={index} className="bg-white rounded-lg p-8 shadow-lg">
-              <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-gray-600 rounded-full flex items-center justify-center mb-6">
                 <service.icon className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-semibold text-blue-600 mb-4">{service.title}</h3>
+              <h3 className="text-xl font-semibold text-gray-600 mb-4">{service.title}</h3>
               <p className="text-gray-600 mb-6 leading-relaxed">{service.description}</p>
               <Link
                 href={service.link}
-                className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 font-medium inline-block"
+                className="bg-gray-600 text-white px-6 py-2 rounded-md hover:bg-gray-700 font-medium inline-block"
               >
                 LEARN MORE
               </Link>

@@ -36,13 +36,13 @@ export default function ServiceGrid() {
         style={{ backgroundImage: "url('/images/web-design-detail.jpg')" }}
       ></div>
       <div className="container mx-auto px-4 relative z-10">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-blue-500 mb-12">Our Services</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-500 mb-12">Our Services</h2>
         <div className="grid md:grid-cols-2 gap-8">
           {services.map((service, index) => (
             <div key={index} className="bg-white p-8 rounded-lg shadow-lg">
               <div className="flex items-center mb-4">
-                <div className="p-3 bg-blue-100 rounded-md mr-4">
-                  <service.icon className="w-6 h-6 text-blue-600" />
+                <div className="p-3 bg-gray-100 rounded-md mr-4">
+                  <service.icon className="w-6 h-6 text-gray-600" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-800">{service.title}</h3>
               </div>
@@ -53,7 +53,7 @@ export default function ServiceGrid() {
         <div className="text-center mt-12">
           <Link
             href="tel:8889291991"
-            className="bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 font-medium inline-block"
+            className="bg-gray-600 text-white px-8 py-3 rounded-md hover:bg-gray-700 font-medium inline-block"
           >
             888 929 1991
           </Link>

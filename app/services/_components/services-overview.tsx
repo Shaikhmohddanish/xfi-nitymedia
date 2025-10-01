@@ -37,7 +37,7 @@ export default function ServicesOverview() {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="mb-16 max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4 text-blue-600">Comprehensive Digital Solutions</h2>
+          <h2 className="text-3xl font-bold mb-4 text-gray-600">Comprehensive Digital Solutions</h2>
           <p className="text-gray-600 text-lg">
             We offer a full range of services to help your business thrive in the digital landscape, from stunning
             websites to strategic marketing campaigns.
@@ -48,7 +48,7 @@ export default function ServicesOverview() {
           {services.map((service, index) => (
             <div key={index} className={`grid md:grid-cols-2 gap-12 items-center ${index % 2 === 1 ? 'md:flex-row-reverse' : ''}`}>
               <div className="relative">
-                <div className="bg-blue-100 rounded-lg aspect-video relative overflow-hidden">
+                <div className="bg-gray-100 rounded-lg aspect-video relative overflow-hidden">
                   <Image
                     src={service.image}
                     alt={service.title}
@@ -56,19 +56,19 @@ export default function ServicesOverview() {
                     className="object-cover"
                   />
                 </div>
-                <div className="absolute -bottom-6 -right-6 w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center text-white">
+                <div className="absolute -bottom-6 -right-6 w-20 h-20 bg-gray-600 rounded-full flex items-center justify-center text-white">
                   <service.icon className="w-10 h-10" />
                 </div>
               </div>
               
               <div>
-                <h3 className="text-2xl font-bold text-blue-600 mb-4">{service.title}</h3>
+                <h3 className="text-2xl font-bold text-gray-600 mb-4">{service.title}</h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">{service.description}</p>
                 
                 <ul className="space-y-3 mb-8">
                   {service.features.map((feature, i) => (
                     <li key={i} className="flex items-start">
-                      <span className="inline-flex items-center justify-center bg-blue-100 text-blue-600 w-6 h-6 rounded-full mr-3 mt-0.5">
+                      <span className="inline-flex items-center justify-center bg-gray-100 text-gray-600 w-6 h-6 rounded-full mr-3 mt-0.5">
                         <span className="text-sm font-bold">{i + 1}</span>
                       </span>
                       <span className="text-gray-700">{feature}</span>
@@ -78,7 +78,7 @@ export default function ServicesOverview() {
                 
                 <Link
                   href={service.link}
-                  className="inline-flex items-center text-blue-600 font-medium hover:underline"
+                  className="inline-flex items-center text-gray-600 font-medium hover:underline"
                 >
                   Learn more about {service.title} <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>

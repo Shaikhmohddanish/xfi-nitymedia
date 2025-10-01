@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function ServicesCTA() {
   return (
-    <section className="py-16 bg-blue-500 text-white">
+    <section className="py-16 bg-gray-500 text-white">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Digital Presence?</h2>
@@ -12,13 +12,13 @@ export default function ServicesCTA() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/quote"
-              className="bg-white text-blue-600 px-8 py-3 rounded-md hover:bg-blue-50 font-medium"
+              className="bg-white text-gray-600 px-8 py-3 rounded-md hover:bg-gray-50 font-medium"
             >
               REQUEST A QUOTE
             </Link>
             <Link
               href="/contact"
-              className="bg-blue-600 text-white border border-white px-8 py-3 rounded-md hover:bg-blue-700 font-medium"
+              className="bg-gray-600 text-white border border-white px-8 py-3 rounded-md hover:bg-gray-700 font-medium"
             >
               CONTACT US
             </Link>

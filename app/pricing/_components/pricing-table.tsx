@@ -50,7 +50,7 @@ export default function PricingTable() {
               }`}
             >
               {plan.isPopular && (
-                <div className="bg-blue-600 text-white text-sm font-bold uppercase tracking-wider px-4 py-1 rounded-full self-center -mt-12 mb-4">
+                <div className="bg-gray-600 text-white text-sm font-bold uppercase tracking-wider px-4 py-1 rounded-full self-center -mt-12 mb-4">
                   Most Popular
                 </div>
               )}
@@ -68,7 +68,7 @@ export default function PricingTable() {
                   </li>
                 ))}
               </ul>
-              <Button className="w-full bg-blue-600 hover:bg-blue-700">Get Started</Button>
+              <Button className="w-full bg-gray-600 hover:bg-gray-700">Get Started</Button>
             </div>
           ))}
         </div>

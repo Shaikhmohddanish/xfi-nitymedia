@@ -2,7 +2,7 @@ export default function AboutSection() {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-blue-600 mb-8">How can we help you?</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-600 mb-8">How can we help you?</h2>
         <div className="max-w-4xl mx-auto space-y-6 text-gray-600 leading-relaxed">
           <p className="text-lg">
             xfi-nitymedia is a dynamic team of creative minds, tech enthusiasts, and strategic thinkers dedicated to

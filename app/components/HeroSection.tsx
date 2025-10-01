@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function HeroSection() {
   return (
-    <section className="bg-blue-500 text-white py-16 md:py-24">
+    <section className="bg-gray-500 text-white py-16 md:py-24">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
@@ -19,13 +19,13 @@ export default function HeroSection() {
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/learn-more"
-              className="bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 font-medium text-center"
+              className="bg-gray-600 text-white px-8 py-3 rounded-md hover:bg-gray-700 font-medium text-center"
             >
               LEARN MORE
             </Link>
             <Link
               href="tel:8889291991"
-              className="bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 font-medium text-center"
+              className="bg-gray-600 text-white px-8 py-3 rounded-md hover:bg-gray-700 font-medium text-center"
             >
               888 929 1991
             </Link>

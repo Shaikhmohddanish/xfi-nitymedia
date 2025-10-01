@@ -1,13 +1,13 @@
 export default function AboutHero() {
   return (
-    <section className="bg-blue-500 text-white py-16 md:py-24 relative overflow-hidden">
+    <section className="bg-gray-500 text-white py-16 md:py-24 relative overflow-hidden">
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: "url('/images/about-hero.jpg')" }}
       ></div>
       {/* Background overlay */}
-      <div className="absolute inset-0 bg-blue-500/90"></div>
+      <div className="absolute inset-0 bg-gray-500/90"></div>
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
