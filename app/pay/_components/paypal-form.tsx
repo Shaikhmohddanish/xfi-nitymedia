@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { PayPalScriptProvider, PayPalButtons, type OnApproveData, type CreateOrderData } from "@paypal/react-paypal-js"
+import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
@@ -13,7 +13,7 @@ export default function PaypalForm({ paypalClientId }: PaypalFormProps) {
   const [message, setMessage] = useState<{ type: "success" | "error" | "info"; text: string } | null>(null)
   const [isProcessing, setIsProcessing] = useState(false)
 
-  const createOrder = (data: CreateOrderData, actions: any) => {
+  const createOrder = (data: any, actions: any) => {
     if (!amount || Number.parseFloat(amount) <= 0) {
       setMessage({ type: "error", text: "Please enter a valid amount." })
       return Promise.reject(new Error("Invalid amount"))
@@ -32,7 +32,7 @@ export default function PaypalForm({ paypalClientId }: PaypalFormProps) {
     })
   }
 
-  const onApprove = (data: OnApproveData, actions: any) => {
+  const onApprove = (data: any, actions: any) => {
     return actions.order.capture().then((details: any) => {
       setMessage({ type: "success", text: `Payment completed by ${details.payer.name.given_name}. Thank you!` })
       setIsProcessing(false)

@@ -7,7 +7,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { ShieldCheck, Lock } from "lucide-react"
 
 export default function PayPage() {
-  const paypalClientId = "AVGkZWxbr0VQO8jCk6-5ka7CktIBmwSeRnc1eOl-HMsCnjGWWiAZYWC9EPcZXlqBNeviZOqOayWDdJcd"
+  const paypalClientId = "ATLP3hfDjiVBKlzJTX7vJq6ZdZAdD0Ikobs1HPQh0g5MkU4gqMwZH4qWISPhLp-3SXxcHNUaLieMb8QJ"
 
   return (
     <main className="min-h-screen bg-gray-50">
