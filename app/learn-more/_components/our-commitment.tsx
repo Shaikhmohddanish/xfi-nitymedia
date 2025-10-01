@@ -14,7 +14,7 @@ export default function OurCommitment() {
             <h2 className="text-3xl md:text-4xl font-bold text-blue-600 mb-6">Your Success is Our Mission</h2>
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
-                At Xfint-media, our relationship with clients extends far beyond project delivery. We see ourselves as a
+                At xfi-nitymedia, our relationship with clients extends far beyond project delivery. We see ourselves as a
                 dedicated partner in your long-term success. Our commitment is to provide not only exceptional digital
                 products but also the ongoing support and strategic guidance you need to thrive in a competitive
                 landscape.

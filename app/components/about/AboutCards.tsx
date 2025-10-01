@@ -21,7 +21,7 @@ export default function AboutCards() {
             <div className="w-12 h-1 bg-blue-600 mb-6"></div>
             <h3 className="text-2xl font-bold text-blue-400 mb-6">Who Are We</h3>
             <p className="text-gray-600 leading-relaxed">
-              Founded with a vision to revolutionize the way businesses approach digital transformation, xfint-mediahas
+              Founded with a vision to revolutionize the way businesses approach digital transformation, xfi-nitymediahas
               quickly emerged as a trusted partner for organizations seeking to maximize their online potential. With a
               team of passionate professionals, each bringing a unique set of skills and experiences to the table, we
               have built a culture of collaboration, creativity, and continuous improvement.
@@ -33,7 +33,7 @@ export default function AboutCards() {
             <div className="w-12 h-1 bg-blue-600 mb-6"></div>
             <h3 className="text-2xl font-bold text-blue-400 mb-6">Our Mission</h3>
             <p className="text-gray-600 leading-relaxed">
-              At Xfint-media, our mission is simple: to empower businesses to succeed in the digital age. Whether it's
+              At xfi-nitymedia, our mission is simple: to empower businesses to succeed in the digital age. Whether it's
               creating stunning websites, developing cutting- edge software solutions, or devising strategic marketing
               campaigns, we are driven by a relentless commitment to delivering results that exceed expectations.
             </p>

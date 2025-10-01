@@ -10,15 +10,15 @@ export default function AboutCTA() {
               <h2 className="text-2xl md:text-3xl font-bold text-blue-600 mb-4">Get Started With Us Today</h2>
               <p className="text-gray-600 leading-relaxed">
                 Ready to take your business to the next level? Contact us today to schedule a consultation and discover
-                how xfint-mediacan help you achieve your goals. Let's transform your vision into reality, together.
+                how xfi-nitymediacan help you achieve your goals. Let's transform your vision into reality, together.
               </p>
             </div>
             <div className="flex-shrink-0">
               <Link
-                href="tel:8884040304"
+                href="tel:8889291991"
                 className="bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 font-medium inline-block"
               >
-                888 404 0304
+                888 929 1991
               </Link>
             </div>
           </div>

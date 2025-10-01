@@ -29,10 +29,10 @@ export default function AboutStats() {
 
         <div className="text-center">
           <Link
-            href="tel:8884040304"
+            href="tel:8889291991"
             className="bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 font-medium inline-block"
           >
-            888 404 0304
+            888 929 1991
           </Link>
         </div>
       </div>

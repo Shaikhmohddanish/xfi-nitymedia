@@ -24,7 +24,7 @@ export default function ContactDetails() {
           </div>
           <div>
             <h3 className="text-lg font-semibold text-gray-800">Phone Number</h3>
-            <p className="text-gray-600">888 404 0304</p>
+            <p className="text-gray-600">888 929 1991</p>
           </div>
         </div>
         <div className="flex items-start">
@@ -33,7 +33,7 @@ export default function ContactDetails() {
           </div>
           <div>
             <h3 className="text-lg font-semibold text-gray-800">Email Address</h3>
-            <p className="text-gray-600">support@xfint-media.com</p>
+            <p className="text-gray-600">support@xfi-nitymedia.com</p>
           </div>
         </div>
       </div>

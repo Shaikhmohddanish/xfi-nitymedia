@@ -30,7 +30,7 @@ export default function Header() {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <Link href="/" className="flex items-center" onClick={handleLinkClick}>
-              <Image src="/logo.png" alt="Xfint-media" width={40} height={40} className="w-10 h-10" />
+              <Image src="/logo.png" alt="xfi-nitymedia" width={40} height={40} className="w-10 h-10" />
             </Link>
 
             {/* Desktop Navigation */}

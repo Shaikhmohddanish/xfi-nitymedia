@@ -1,2 +1,2 @@
-# Xfinit-media
+# xfi-nitymedia
 # xfi-nitymedia

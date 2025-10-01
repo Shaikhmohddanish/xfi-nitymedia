@@ -12,7 +12,7 @@ export default function AboutHero() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">About Us</h1>
-          <h2 className="text-2xl md:text-3xl font-semibold mb-8">Welcome to The Xfint-media</h2>
+          <h2 className="text-2xl md:text-3xl font-semibold mb-8">Welcome to The xfi-nitymedia</h2>
           <p className="text-lg md:text-xl mb-4">
             Where innovation, expertise, and dedication converge to drive digital excellence.
           </p>

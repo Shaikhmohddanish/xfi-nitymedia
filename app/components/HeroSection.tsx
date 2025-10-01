@@ -9,10 +9,10 @@ export default function HeroSection() {
             Create amazing business websites and marketing solutions.
           </h1>
           <h2 className="text-xl md:text-2xl font-semibold mb-4">
-            Xfint-media – Powering Connectivity, Driving Success!
+            xfi-nitymedia – Powering Connectivity, Driving Success!
           </h2>
           <p className="text-lg md:text-xl mb-8 leading-relaxed">
-            Join the power of digital transformation with xfint-media—your go-to destination for cutting-edge web
+            Join the power of digital transformation with xfi-nitymedia—your go-to destination for cutting-edge web
             design, development, business consultation, and digital marketing solutions. We blend creativity,
             technology, and strategy to elevate your brand and deliver real results.
           </p>
@@ -24,10 +24,10 @@ export default function HeroSection() {
               LEARN MORE
             </Link>
             <Link
-              href="tel:8884040304"
+              href="tel:8889291991"
               className="bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 font-medium text-center"
             >
-              888 404 0304
+              888 929 1991
             </Link>
           </div>
         </div>

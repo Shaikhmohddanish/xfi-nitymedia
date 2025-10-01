@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <p className="text-lg leading-relaxed">
-              Xfint-media is your reliable partner for seamless and high-speed digital solutions.
+              xfi-nitymedia is your reliable partner for seamless and high-speed digital solutions.
             </p>
           </div>
 
@@ -36,8 +36,8 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Get In Touch</h3>
             <div className="space-y-2">
-              <p>Email: support@Xfint-media.com</p>
-              <p>Toll free number : 888 404 0304</p>
+              <p>Email: support@xfi-nitymedia.com</p>
+              <p>Toll free number : 888 929 1991</p>
             </div>
 
             {/* Social Media */}
@@ -61,7 +61,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-blue-300 mt-8 pt-8 text-center">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-            <p>Copyright © 2024 - All right reserved by Xfint-media</p>
+            <p>Copyright © 2024 - All right reserved by xfi-nitymedia</p>
           </div>
         </div>
       </div>
